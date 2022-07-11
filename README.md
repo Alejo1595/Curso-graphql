@@ -59,6 +59,16 @@ Graphql:
 
 ## Schemas y queries
 
+### ¿Qué es el Schema?
+
+Es el contrato que se expone para facilitar la comunicacion entre el cliente y las fuentes de datos a través de Graphql. Es donde nosotros informamos o proveemos las posibilidades o las formas en las que un cliente puede comunicarse con un API.
+
+Las queries, mutations y subscription conformas los schemas. En los schemas van a habitar todos estos tipos para que el cliente sepa información pedir, que información mutar o a que información suscribirse. Cabe resaltar que es la primera parte de todo el proceso que hace graphql para poder obtener, mutar o transformar la información que se necesite.
+
+### ¿Qué son las Type Query?
+
+Las Query son las opciones que declaramos en nuesrto esquema para poder pedir información al API. Cuando nosotros declaramos una Query dentro de nuestro Schema, estamos dando la posibilidad para que el cliente pueda pedir información. La query expone diferentes propiedades que pueden retornar como respuesta, sin embargo es el cliente el que define y decide que propiedades quiere recibir de la consulta.
+
 ## Mutations
 
 ## Subscriptions
